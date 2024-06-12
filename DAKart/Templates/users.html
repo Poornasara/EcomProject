@@ -1,0 +1,17 @@
+<h1> {{Welcome}}, your First Name is {{fname}}</h1>
+
+<h2>You are a {{Profile.Job}} and working in {{Profile.Company}}</h2>
+
+<h3>Gender :
+{% if Gender == 'M'%} 
+Male
+{% elif Gender == 'F'%}
+Female 
+{% endif %} 
+</h3>
+<b>Nos.:  {% for No in Nos %} 
+          {{ No }}
+          {% endfor %}</b>
+    
+
+
